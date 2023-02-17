@@ -1,0 +1,715 @@
+body {
+    background-color: #000000;
+  }
+
+
+.logo img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 4px;
+
+    position: absolute;
+    width: 155px;
+    height: 37px;
+    left: 41px;
+    top: 18px;
+    background-repeat: no-repeat;
+}
+
+.roger-text h3 {
+    position: absolute;
+    width: 385px;
+    height: 50px;
+    left: 250px;
+    margin-top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 52px;
+
+    color: #FFFFFF;
+
+}
+
+.searchbar img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 73px 10px 23px;
+    gap: 10px;
+
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    left: 500px;
+    top: 14px;
+
+}
+
+.notif img {
+    position: absolute;
+    width: 37px;
+    height: 41.03px;
+    left: 34px;
+    top: 25px;
+    margin-left: 1000px;
+}
+
+.account img {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 375px;
+    top: 24px;
+    margin-left: 1000px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 29px;
+    gap: 17px;
+
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 63px;
+    top: 183px;
+
+    background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+    border-radius: 17px;
+    margin-top: -80px;
+    margin-left: -20px;
+}
+
+.dashboard img {
+    width: 30px;
+}
+
+.infos {
+    position: absolute;
+    width: 323px;
+    height: 565px;
+    left: 22px;
+    top: 160px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.elements-invoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px 9px;
+    gap: 10px;
+
+    position: absolute;
+    width: 183px;
+    height: 80px;
+    left: 18px;
+    top: 7px;
+
+    border-radius: 17px;
+}
+
+.elements-invoices img {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    margin-left: -115px;
+}
+
+.elements-clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 182px;
+    height: 79px;
+    left: 14px;
+    top: 73px;
+
+    border-radius: 17px;
+}
+
+.elements-clients img {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    margin-left: -115px;
+}
+
+.elements-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 141px;
+    height: 70px;
+    left: 40px;
+    top: 150px;
+
+    border-radius: 17px;
+}
+
+.elements-products img {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    margin-left: -125px;
+}
+
+.elements-messages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 185px;
+    height: 60px;
+    left: 18px;
+    top: 226px;
+
+    border-radius: 17px;
+}
+
+.elements-messages img {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    margin-left: -125px;
+}
+
+.elements-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 185px;
+    height: 83px;
+    left: 12px;
+    top: 276px;
+
+    border-radius: 17px;
+}
+
+.elements-settings img {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    margin-left: -115px;
+}
+
+.elements-help {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 181px;
+    height: 78px;
+    left: 4px;
+    top: 347px;
+
+    border-radius: 17px; 
+}
+
+.elements-help img {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    margin-left: -100px;
+}
+
+.elements-logout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+
+    position: absolute;
+    width: 215px;
+    height: 63px;
+    left: 4px;
+    top: 460px;
+
+    border-radius: 17px;
+}
+
+.elements-logout img {
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    margin-left: -130px;
+}
+
+.balance-left {
+    color: #FFFFFF;
+    position: absolute;
+    width: 919px;
+    height: 212px;
+    left: 356px;
+    top: 138px;
+}
+
+.balance-title {
+    margin-top: -20px;
+}
+
+.balance-details {
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+}
+
+.balance-details img {
+    margin-left: 20px;
+    weight:15px;
+    height: 15px;
+}
+
+.balance-subtitle {
+    margin-top: -15px;
+}
+
+.bitcoin-card {
+    position: absolute;
+    left: 320px;
+    top: 595px;
+
+    border-radius: 20px;
+}
+
+.bitcoin-card img {
+    border-radius: 10%;
+    width: 818px;
+    height: 49px;
+}
+
+.ether-card{
+    position: absolute;
+    left: 320px;
+    top: 650px;
+
+    border-radius: 30px;   
+}
+
+.ether-card img{
+    border-radius: 8%;
+    width: 818px;
+    height: 49px;
+}
+
+.graph img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 814px;
+    height: 300px;
+    left: 317px;
+    top: 221px;
+
+    background: rgba(48, 53, 65, 0.67);
+    border-radius: 30px;
+}
+
+.transactions-title h2 {
+    position: absolute;
+    width: 233px;
+    height: 33px;
+    left: 268px;
+    top: 540px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.transactions-title h3 {
+    position: absolute;
+    width: 139px;
+    height: 33px;
+    left: 1030px;
+    top: 540px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.transac-list {
+    margin-left: 1300px;
+    margin-top: 150px;
+    front-size: 10px;
+}
+
+/*T*/
+
+.usdt {
+    padding-bottom: 10px;
+}
+
+.usdt img {
+    weight: 40px;
+    height: 40px;
+}
+
+.txt-1-0 {
+    margin-top: -47px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-1-0 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-0 {
+    margin-top: -33px;
+    margin-left: 130px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-0 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+/*BNB*/
+
+.bnb {
+    padding-bottom: 10px;
+}
+
+.bnb img {
+    weight: 40px;
+    height: 40px;
+}
+
+.txt-1-1 {
+    margin-top: -47px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-1-1 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-1 {
+    margin-top: -33px;
+    margin-left: 130px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-1 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+/*Lite*/
+
+.lite {
+    padding-bottom: 10px;
+}
+
+.lite img {
+    weight: 40px;
+    height: 40px;
+}
+
+.txt-1-2 {
+    margin-top: -47px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-1-2 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-2 {
+    margin-top: -33px;
+    margin-left: 160px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-2 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+/*Bitcoin*/
+
+.bitcoin {
+    padding-bottom: 10px;
+}
+
+.bitcoin img {
+    weight: 40px;
+    height: 40px;
+}
+
+
+.txt-1-3 {
+    margin-top: -47px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-1-3 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-3 {
+    margin-top: -33px;
+    margin-left: 160px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-3 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+/*Ether*/
+
+.ether {
+    padding-bottom: 20px;
+}
+
+.ether img {
+    weight: 40px;
+    height: 40px;
+}
+
+.txt-1-4 {
+    margin-top: -47px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-1-4 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-4 {
+    margin-top: -33px;
+    margin-left: 160px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.txt-2-4 p {
+    margin-top: -5px;
+    color: #FFFFFF;
+    font-size : 8px;
+}
+
+.bas {
+    margin-left: 1300px;
+    margin-top: 100px;
+}
+
+.bitcoin_card img {
+    height: 100px;
+    widht: 100px;
+}
+
+.ether_card img {
+    height: 100px;
+    widht: 100px;
+}
+
+.bas-title h3 {
+    position: absolute;
+    width: 83px;
+    height: 36px;
+    left: 1380px;
+    top: 456px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+@media only screen and (max-width: 2361px) {
+
+.left {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.infos {
+}
+
+.graph img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 814px;
+    height: 300px;
+    left: 317px;
+    top: 221px;
+    background: rgba(48, 53, 65, 0.67);
+    border-radius: 30px;
+    left: 100px; 
+}
+
+.bitcoin-card img {
+    border-radius: 10%;
+    width: 818px;
+    height: 49px;
+    position: absolute;
+    left: -200px;
+}
+
+.ether-card img {
+    border-radius: 8%;
+    width: 818px;
+    height: 49px;
+    position: absolute;
+    left: -200px;
+}
+
+.bitcoin_card img {
+    height: 100px;
+    widht: 100px;
+    position: absolute;
+    left: 200px;
+    top: 800px;
+}
+
+.ether_card img {
+    height: 100px;
+    widht: 100px;
+    position: absolute;
+    left: 600px;
+    top: 800px;
+}
+
+.transac-list {
+    position: absolute;
+    left: -900px;
+    top: 800px;
+}
+
+.details {
+    position: absolute;
+    left: -150px;
+    top: 10px;
+}
+
+.transactions-title h3 {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.bas-title h3 {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.notif img {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+.account img {
+visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+}
+
+
+
+
+
+
+
+
